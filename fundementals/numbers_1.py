@@ -26,4 +26,7 @@ num4 = 300
 num4 /=9
 print(num4) # 6
 
+# no age++ in python. need to use age+=1
+
+
 
