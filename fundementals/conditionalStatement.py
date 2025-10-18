@@ -41,7 +41,4 @@ thunder = True
 lighting = True
 if thunder and lighting:
     print("Do not go to swimming") #Do not go to swimming
-elif not thunder or not lighting:
-    print("Stay home is better")
-else:
-    print("Absolutely!!!")
+

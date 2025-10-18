@@ -58,5 +58,18 @@ while i > 0:
     print(factorial)
     i -= 1
 print("0 = 1")
+"""
+10 X 9 X 8 X 7 X 6 X 5 X 4 X 3 X 2 X 1 = 3628800
+9 X 8 X 7 X 6 X 5 X 4 X 3 X 2 X 1 = 362880
+8 X 7 X 6 X 5 X 4 X 3 X 2 X 1 = 40320
+7 X 6 X 5 X 4 X 3 X 2 X 1 = 5040
+6 X 5 X 4 X 3 X 2 X 1 = 720
+5 X 4 X 3 X 2 X 1 = 120
+4 X 3 X 2 X 1 = 24
+3 X 2 X 1 = 6
+2 X 1 = 2
+1 = 1
+0 = 1
+"""
 
 

@@ -37,7 +37,7 @@ for i in range (0, len(languages)-1):
     print(f"{languages[i]}, next:, {languages[i+1]} ")
 
 """
-ython, next:, Go 
+Python, next:, Go 
 Go, next:, Java 
 Java, next:, Javascript 
 Javascript, next:, C

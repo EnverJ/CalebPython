@@ -10,10 +10,11 @@ Hello, Enver
 Hello
 Hello, Enver
 """
+print("-------greet1--------")
 def greet1(name):
     if name == "Josh":
- #       return # finish here or
-        pass # continue
+   #     return # finish here or
+       pass # continue
     else:
         print("Hello")
         print(f"Hello, {name}")
@@ -21,8 +22,8 @@ def greet1(name):
 
 #greet1("Caleb")
 #greet1("Enver")
-print("-------------")
 greet1("Josh")
+print("--------greet1-------")
 
 """
 Hello
