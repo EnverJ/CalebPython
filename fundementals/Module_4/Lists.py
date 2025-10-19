@@ -20,6 +20,20 @@ for item in unique:
 counts = [[backpack.count(item), item] for item in unique ]
 print(counts) # [[1, 'Apple crisp'], [1, 'Kale chips'], [1, 'Pizza'], [1, 'Frozen custard']]
 
+# or 5
+stars=["sun", "earth","mars", "saturn","venus"]
+print(stars)
+for star in stars:
+    print(star)
+count = [i for i in stars if i == "sun"]
+print(count) # ['sun']
+print("++++++++++++++++++")
+# or 6
+for i, star,in enumerate(stars):
+    print(i, star) 
+print() # 0 sun 1 earth 2 mars 3 saturn 4 venus 
+
+
 # 1
 # # Inclusion checking
 # if "Pizza" in backpack:
