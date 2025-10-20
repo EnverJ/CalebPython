@@ -58,4 +58,16 @@ print(backpack[::-1]) # ['Pizza', 'Frozen custard', 'Apple crisp', 'Kale chips',
 # reverse function
 for item in reversed(backpack):
     print(item, end=", ") # Pizza, Frozen custard, Apple crisp, Kale chips, Frozen custard, Apple crisp, Kale chips, 
+print("-------------------")
+
+myseason=["Spring", "Summer", "Fall", "Winter"]
+myseason.reverse()
+print(myseason)
+
+
+for i , seasons in enumerate(myseason):
+    print(i, seasons)
+    if i == 0:
+        print(i)
+    
 
